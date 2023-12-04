@@ -1,0 +1,152 @@
+#menu {
+  font-weight: 500;
+}
+
+/* footer section*/
+.footer_section {
+  background-color: #461973;
+  color: #ffffff;
+  padding: 15px 0 0px 0;
+  text-align: center;
+}
+
+.footer_section h4 {
+  font-size: 28px;
+}
+
+.footer_section h4,
+.footer_section .footer-logo {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.footer_section p {
+  color: #dbdbdb;
+}
+
+.footer_section .footer-col {
+  margin-bottom: 30px;
+}
+
+.footer_section .footer_contact .contact_link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.footer_section .footer_contact .contact_link_box a {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.footer_section .footer_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+.footer_section .footer_contact .contact_link_box a:hover {
+  color: #ffbe33;
+}
+
+.footer_section .footer-logo {
+  display: block;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer_section .footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_section .footer_social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #222831;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin: 0 2.5px;
+  font-size: 18px;
+}
+
+.footer_section .footer_social a:hover {
+  color: #ffbe33;
+}
+
+.footer_section .footer-info {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer_section .footer-info p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer_section .footer-info p a {
+  color: inherit;
+}
+
+/* Custom styles for your hero section */
+.hero-section {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  /* Text color on top of the image */
+  text-align: center;
+  padding: 100px 0;
+  /* Adjust the padding as needed */
+}
+
+.hero-heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #461973;
+}
+
+
+/* Custom styles for your sticky second navbar */
+.navbar-second {
+  transition: top 0.3s ease-in-out;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Ensure the second navbar is above other elements */
+}
+
+.navbar-first {
+  position: relative;
+  z-index: 1001;
+  /* Ensure the first navbar is above the second navbar when sticky */
+}
+
+#prodi{
+  text-decoration: none;
+}
